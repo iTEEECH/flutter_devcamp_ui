@@ -23,21 +23,11 @@ class Application extends StatelessWidget {
             children: <Widget>[
               ImageSection(),
               SizedBox(height: 32.0),
-              TitleSection(
-                username: 'Florentin',
-                location: 'Lille, France'
-              ),
+              TitleSection(),
               SizedBox(height: 32.0),
               ButtonsSection(),
               SizedBox(height: 32.0),
-              TextSection(
-                description:
-                'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
-                'Nam mollis neque porttitor tellus vestibulum, vitae consectetur lacus iaculis.'
-                'Praesent ex sapien, aliquet nec sapien aliquet, dictum laoreet purus.'
-                'Mauris facilisis euismod faucibus. Morbi sed est eu diam scelerisque mattis.'
-                'Suspendisse sed nulla eu mi efficitur gravida. Duis tristique semper quam.'
-              ),
+              TextSection(),
             ],
           ),
         ),
